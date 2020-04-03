@@ -6,7 +6,6 @@
     android:layout_height="match_parent"
     android:background="@drawable/s1"
     tools:context=".MainActivity">
-
     <Button
         android:id="@+id/button1"
         android:background="@drawable/shape"
