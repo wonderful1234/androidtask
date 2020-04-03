@@ -77,8 +77,8 @@ public class Utils {
 			sb.append("区            : " + location.getDistrict() + "\n");
 			sb.append("区域 码   : " + location.getAdCode() + "\n");
 			sb.append("地    址    : " + location.getAddress() + "\n");
-			s[0]=location.getAddress()+location.getStreet();
-			s[1]=location.getCity();
+			s[0]=location.getAddress()+location.getStreet()+location.getAoiName()+location.getFloor();
+			s[1]=location.getDistrict();
 			sb.append("兴趣点    : " + location.getPoiName() + "\n");
 			//定位完成的时间
 			sb.append("定位时间: " + formatUTC(location.getTime(), "yyyy-MM-dd HH:mm:ss") + "\n");

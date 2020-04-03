@@ -45,6 +45,7 @@ public class Main3Activity extends AppCompatActivity {
         AMapLocationClientOption locationClientOption = new AMapLocationClientOption();
         // 地址信息
         locationClientOption.setGpsFirst(true);
+        locationClientOption.setLocationMode(AMapLocationClientOption.AMapLocationMode.Hight_Accuracy);
         locationClientOption.setNeedAddress(true);
         locationClientContinue.setLocationOption(locationClientOption);
         locationClientContinue.setLocationListener(locationContinueListener);
