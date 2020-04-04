@@ -1,5 +1,4 @@
 package com.example.myapplicationlocation;
-
 import androidx.annotation.NonNull;
 import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AppCompatActivity;
