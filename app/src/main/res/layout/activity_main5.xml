@@ -7,5 +7,4 @@
     android:background="@drawable/s11"
     tools:context=".Main5Activity">
 
-
 </androidx.constraintlayout.widget.ConstraintLayout>
