@@ -82,7 +82,6 @@ public class PermissionUtils {
                     break;
                 }
             }
-
             if (grantAll){
                 mCallBack.grantAll();
             }else {
