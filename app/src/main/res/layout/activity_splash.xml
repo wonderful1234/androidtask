@@ -11,5 +11,4 @@
         android:background="@drawable/start"
         />
 
-
 </androidx.constraintlayout.widget.ConstraintLayout>
