@@ -68,7 +68,6 @@ public class Utils {
 				sb.append("星    数    : "
 						+ location.getSatellites() + "\n");
 			}
-
 			//逆地理信息
 			sb.append("国    家    : " + location.getCountry() + "\n");
 			sb.append("省            : " + location.getProvince() + "\n");
