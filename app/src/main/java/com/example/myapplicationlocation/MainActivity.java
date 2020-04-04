@@ -28,7 +28,6 @@ public class MainActivity extends AppCompatActivity {
     public void clickbu2(View view) {
         Intent it=new Intent(MainActivity.this,Main4Activity.class);
         startActivity(it);
-
     }
 
     public void clickbu3(View view) {
