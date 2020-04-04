@@ -41,7 +41,7 @@ public class ToastUtil {
 			mToast.setGravity(Gravity.BOTTOM, 0, 150);
 			mToast.setView(text);
 		}
-		
+	
 		mHandler.postDelayed(r, 1000);// 延迟1秒隐藏toast
 		mToast.show();
 	}
