@@ -16,7 +16,6 @@ public class Main2Activity extends AppCompatActivity {
     private Button button1;
     private SharedPreferences pres;
     private SharedPreferences.Editor editor;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
