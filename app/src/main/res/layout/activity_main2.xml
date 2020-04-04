@@ -39,5 +39,4 @@
         android:background="#551A8B"
         android:gravity="center"
         android:textSize="20sp"/>
-
 </androidx.constraintlayout.widget.ConstraintLayout>
