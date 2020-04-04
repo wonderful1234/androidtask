@@ -31,5 +31,4 @@ public class Main4Activity extends AppCompatActivity {
         }
     }
 
-
 }
